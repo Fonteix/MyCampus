@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Bootstrap Tooltip Follows Mouse on Image Maps</title>
+  
+  
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <img src="http://lorempixel.com/output/food-q-c-350-350-5.jpg" usemap="#foodmap">
+<map id="#foodmap" name="foodmap">
+  <area class="area" shape="rect" coords="0,0,170,100" href="#" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="area-tooltip1" />
+  
+  <area class="area" shape="rect" coords="187,0,342,188" href="#" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="area-tooltip2" />
+  
+  <area class="area" shape="rect" coords="169,182,350,350" href="#" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="area-tooltip3" />
+  
+  <area class="area" shape="poly" coords="78,133,158,182,162,349,0,349,0,283" href="#" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="area-tooltip4" />
+</map>
+<i id="area-tooltip1" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="Tomatoes" data-animation="false" data-trigger="manual">&#160;</i><i id="area-tooltip2" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="Carrots" data-animation="false" data-trigger="manual">&#160;</i><i id="area-tooltip3" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="Cucumber" data-animation="false" data-trigger="manual">&#160;</i><i id="area-tooltip4" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="Pepper" data-animation="false" data-trigger="manual">&#160;</i>
+<br>
+This is a picture of <a href="#" data-toggle="tooltip" title="Food is Yummy!">food</a>. Notice how the tooltip behaves normally when it's not all tagged up for use in the image map. Also I made it grey. Because of reasons.<br>
+Note that this pen is using Bootstrap 3, jQuery, and some custom code from <a href="https://stackoverflow.com/users/3774282/faizan-rupani">Faizan Rupani</a> on StackOverflow.<br>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

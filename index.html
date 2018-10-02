@@ -15,10 +15,14 @@
 
     <!-- Custom styles for this template -->
     <link href="css/scrolling-nav.css" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
 
+
+      
   </head>
 
-  <body id="page-top">
+
+    <body id="page-top">
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
@@ -62,18 +66,18 @@
       </div>
     </header>
  </a>
-
+<!--
     <section id="about">
-    <!--
+    
     <header class="bg-primary text-white">
       <div class="container text-center">
         <h1>Bienvenue sur MyCampus</h1>
         <p class="lead">Découvrez les richesses du campus HEP</p>
       </div>
     </header>
-    -->
+   
   </section>
-
+ -->
     <section id="accueil">
       <div class="container">
         <div class="row">
@@ -90,23 +94,55 @@
         </div>
       </div>
     </section>
-
+<!--
     <section id="plan" class="bg-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
+		  
             <h2>Plan</h2>
             <p class="lead">Ceci est une description</p>
             <img src="image/accueilBackground.jpg" width="500" height="500" alt="Planets" usemap="#plan1">
             <map name="plan1">
-              <area shape="circle" coords="100,100,40" href="#" alt="pop1" data-toggle="tooltip" data-trigger="hover" data-placement="right" title="This is area 1">
+              <area shape="rect" coords="50,50,150,250" href="#" alt="pop1" target="_self" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="This is area 1">
             </map>
+
           </div>
         </div>
       </div>
     </section>
+	-->
+	
+	<section id="plan" class="bg-light">
+      <div class="container">
+        <div class="row">
+	 <div>
+<img src="http://lorempixel.com/output/food-q-c-350-350-5.jpg" usemap="#foodmap">
+<map id="#foodmap" name="foodmap">
+  <area class="area" shape="rect" coords="0,0,170,100" href="#" title="<img src='https://upload.wikimedia.org/wikipedia/commons/c/c9/Madrid_Graffitti.jpg' />" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="area-tooltip1" />
+  
+  <area class="area" shape="rect" coords="187,0,342,188" href="#" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="area-tooltip2" />
+  
+  <area class="area" shape="rect" coords="169,182,350,350" href="#" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="area-tooltip3" />
+  
+  <area class="area" shape="poly" coords="78,133,158,182,162,349,0,349,0,283" href="#" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="area-tooltip4" />
+</map>
 
-    <section id="video">
+<i id="area-tooltip1" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="<h1>cafrze</h1> <br></br><img src='http://lorempixel.com/output/food-q-c-350-350-5.jpg'>" data-animation="false" data-trigger="manual">&#160;</i>
+<i id="area-tooltip2" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="Carrots" data-animation="false" data-trigger="manual">&#160;</i>
+<i id="area-tooltip3" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="Cucumber" data-animation="false" data-trigger="manual">&#160;</i>
+<i id="area-tooltip4" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="Pepper" data-animation="false" data-trigger="manual">&#160;</i>
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+</div>
+     </div>
+      </div>
+    </section>
+
+    <script  src="js/index.js"></script>
+
+	<section id="video">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
