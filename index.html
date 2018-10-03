@@ -1,75 +1,102 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
+<head>
 
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="description" content="">
+  <meta name="author" content="">
 
-    <title>Scrolling Nav - Start Bootstrap Template</title>
+  <title>MyCampus</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
 
-  </head>
+</head>
 
-  <body id="page-top">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Services</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#test">Contactuuuus</a>
-            </li>
+<body id="page-top">
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#page-top">MyCampus</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav ml-auto">
+
+          <li class="dropdown">
+            <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Liens utiles</a>
+            <ul class="dropdown-menu bg-dark" role="menu">
+              <li><a class="nav-link" href="http://www.hep-education.com/campus/lyon/">Campus HEP Education</a></li>
+              <li><a class="nav-link" href="https://mylearningbox.reseau-cd.fr/">MyLearningBox</a></li>
+            </ul>
+
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#accueil">Accueil</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#plan">Plan</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#video">Vidéo</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <a href="http://www.hep-education.com/campus/lyon/" target="blank_">
+    <header class="bg-primary black" style="background-image:url(image/accueilBackground.jpg);background-repeat:no-repeat;background-size:100%;">
+      <!-- http://www.hep-education.com/wp-content/uploads/2018/05/Slider-1.jpg -->
+      <div class="container text-center">
+        <h1>
+          <font color="white">Bienvenue sur MyCampus</font>
+        </h1>
+        <p class="lead">
+          <font color="white">Découvrez le campus HEP</font>
+        </p>
+      </div>
+    </header>
+  </a>
+
+  <!--
+  <section id="about">
+    <header class="bg-primary text-white">
+      <div class="container text-center">
+        <h1>Bienvenue sur MyCampus</h1>
+        <p class="lead">Découvrez les richesses du campus HEP</p>
+      </div>
+    </header>
+  </section>
+ -->
+
+  <section id="accueil">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Présentation du campus</h2>
+          <p class="lead">Humanisme / Entreprenariat / Professionnalisme</p>
+          <ul>
+            <li>Acteur incontournable de la région Auvergne-Rhône-Alpes en matière de formation, le CAMPUS HEP Lyon – René Cassin est le lieu fédérant la plus grande diversité d’écoles et de centres de formation de la région avec 13 filières de compétences métiers.</li>
+            <br>
+            <li>Ce lieu unique a été créé en 2004 et accueille aujourd’hui 7 200 apprenants  issus de ses 24 écoles et centres de formation – de Bac à Bac+5 – sur une surface totale de 22 000m2.</li>
           </ul>
         </div>
       </div>
-    </nav>
+    </div>
+  </section>
 
-    <header class="bg-primary text-white">
-      <div class="container text-center">
-        <h1>Welcome to Scrolling Nav</h1>
-        <p class="lead">A landing page template freshly redesigned for Bootstrap 4</p>
-      </div>
-    </header>
-
-    <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>About this page</h2>
-            <p class="lead">This is a great place to talk about your webpage. This template is purposefully unstyled so you can use it as a boilerplate or starting point for you own landing page designs! This template features:</p>
-            <ul>
-              <li>Clickable nav links that smooth scroll to page sections</li>
-              <li>Responsive behavior when clicking nav links perfect for a one page website</li>
-              <li>Bootstrap's scrollspy feature which highlights which section of the page you're on in the navbar</li>
-              <li>Minimal custom CSS so you are free to explore your own unique design options</li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </section>
-
+<<<<<<< HEAD
     <section id="services" class="bg-light">
       <div class="container">
         <div class="row">
@@ -79,50 +106,200 @@
             <p class="lead"><a href="ecole.html" ><img src="image/Ecoles.png"  alt="ecoles" class=" b-error"></a></p>
 
           </div>
+=======
+  <section id="ecoles" class="bg-light">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Ecoles et centres de formation présents sur le campus</h2>
+          <p class="lead">13 filières métiers représentées sur le campus</p>
+          <ul>
+            <li>Agriculture – Environnement Urbanisme</li>
+            <li>Art – Architecture – Design</li>
+            <li>Communication – Journalisme Production</li>
+            <li>Droit – Sciences Politique Humanités</li>
+            <li>Entrepreneuriat – Entrepreneuriat Social</li>
+            <li>Finance – Comptabilité – Gestion</li>
+            <li>Immobilier</li>
+            <li>Informatique – Web – Digital</li>
+            <li>International & Relations internationales</li>
+            <li>Marketing – Management – Commerce</li>
+            <li>Ressources Humaines</li>
+            <li>Santé – Social</li>
+            <li>Tourisme – Hôtellerie</li>
+          </ul>
+>>>>>>> 72e484548c8d2443e7eea337d613ad944695aaf1
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <section id="contact">
+  <section id="inspi">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Lieu d'inspiration et porteur de valeurs</h2>
+          <br>
+          <img src="image/inspi.jpg" class="center">
+          <br>
+          <p class="text-justify">En faisant référence à René Cassin dans sa dénomination, le CAMPUS HEP Lyon témoigne de sa volonté de rendre hommage à cet humaniste, juriste, diplomate, homme politique français, co-auteur de la Déclaration Universelle des Droits de l‘Homme de 1948, Prix Nobel de la Paix en 1968 et Prix des Droits de l‘Homme des Nations-Unies la même année.</p>
+          <p class="text-justify">En prenant également le nom de CAMPUS HEP Lyon – René Cassin, ses écoles et centres de formation affichent leur appartenance à HEP EDUCATION.</p>
+          <p class="text-justify">Les apprenants intègrent ainsi des campus porteurs de valeurs H.E.P. – Humanisme, Entrepreneuriat, Professionnalisme – pour une vie étudiante enrichie.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="incubateur" class="bg-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Place des incubateurs</h2>
+          <br>
+          <img src="image/incubateur.jpg" class="center">
+          <br>
+          <p class="text-justify">Véritable espace privilégié d’ouverture et de rencontre avec les entreprises pour un lien emploi-formation, le campus a été conçu comme lieu d’apprentissage, de vie et d’épanouissement personnel.</p>
+          <p class="text-justify">Parmi ses innovations, la « Place des Incubateurs », espace de plus 300 m2 exclusivement dédié aux incubateurs et au co-working qui accueille quatre dispositifs dédiés à l’entrepreneuriat.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!--
+    <section id="plan" class="bg-light">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Contact us</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
+
+            <h2>Plan</h2>
+            <p class="lead">Ceci est une description</p>
+            <img src="image/accueilBackground.jpg" width="500" height="500" alt="Planets" usemap="#plan1">
+            <map name="plan1">
+              <area shape="rect" coords="50,50,150,250" href="#" alt="pop1" target="_self" data-toggle="tooltip" data-trigger="hover" data-placement="top" title="This is area 1">
+            </map>
+
           </div>
         </div>
       </div>
     </section>
+	-->
 
-    <section id="test" class="bg-danger">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Contact uiuuuuus</h2>
-            <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero odio fugiat voluptatem dolor, provident officiis, id iusto! Obcaecati incidunt, qui nihil beatae magnam et repudiandae ipsa exercitationem, in, quo totam.</p>
-          </div>
+  <section id="plan">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-lg-12">
+          <h2>Plan interactif du bâtiment</h2>
+        </div>
+        <br><br><br>
+        <div>
+          <h3>Rez-de-chaussée</h3>
+        </div>
+        <br>
+        <div>
+          <img src="image/RDC.jpg" width="1000" height="600" usemap="#RDC">
+          <map id="#RDC" name="RDC">
+            <area class="area" shape="rect" coords="828,130,890,260" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="RDCAccueil" />
+            <area class="area" shape="rect" coords="720,80,825,200" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="RDCEntree" />
+            <area class="area" shape="rect" coords="260,90,710,330" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="RDCHall" />
+          </map>
+
+          <i id="RDCAccueil" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="
+            <h1>Accueil</h1>
+            <h6>Accueil du campus. Vous pouvez vous y rendre pour demander des renseignemensts.</h6>
+            <img src='image/RDCAccueil.jpg' class='tooltipSize'>"
+            data-animation="false" data-trigger="manual">&#160;</i>
+          <i id="RDCEntree" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="
+            <h1>Entrée du campus</h1>
+            <img src='image/RDCEntree.jpg' class='tooltipSize'>"
+            data-animation="false" data-trigger="manual">&#160;</i>
+          <i id="RDCHall" class="area-tooltip" data-toggle="tooltip" data-html="true" data-placement="right" title="<h1>Hall</h1> <h6>Endroit ouvert en permanence pour travailler</h6><img src='image/RDCHall.jpg' class='tooltipSize'>" data-animation="false" data-trigger="manual">&#160;</i>
+        </div>
+
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/index.js"></script>
+
+  <section id="video">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 mx-auto">
+          <h2>Vidéo</h2>
+          <iframe width="840" height="473" src="https://www.youtube.com/embed/Cat8CTpNozQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <p class="lead">TEST</p>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Copyright &copy; Your Website 2017</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+  <section id="contact" class="bg-light">
+    <div class="container col-lg-8">
+      <h2>Contact</h2>
+      <iframe class="my-auto mx-auto" src="https://www.google.com/maps/d/embed?mid=1y0aVO-NSJ_VY3IvmaQr8-q4kiOfezZTw&z=13" width="910" height="780"></iframe>
+      <p></p>
+      <p class="lead"><strong>Telephone :</strong> 04 72 85 17 93</p>
+      <p class="lead"><strong>Mail :</strong> charlotte.lucchini@hep-education.com</p>
+      <p class="lead"><strong>Pour plus d’informations concernant les dispositifs :</strong> caroline.danthez@campushep-lyon.com</p>
+    </div>
+  </section>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <div id="chat" class="animated-chat tada" onclick="loadChatbox()">Une question ?</div>
+  <div class="chatbox" id="chatbox">
+    <span class="chat-text">Chat</span>
+    <script>
+      document.write('<div id="smartchatbox_img901621879" style="width: 280px; height: 450px; overflow: hidden; margin: auto; padding: 0;">');
+      document.write('<div id="smartchatbox901621879" style="width: 280px; height: 450px; overflow: hidden; margin: auto; padding: 0; border:0; ">');
+      document.write('<iframe src="https://www3.smartchatbox.com/shoutbox/sb.php?key=901621879" scrolling="no" frameborder="0" width="280px" height="450px" style="border:0; margin:0; padding: 0;">');
+      document.write('</iframe></div></div>');
+    </script>
+    <div id="close-chat" onclick="closeChatbox()">&times;</div>
+    <div id="minim-chat" onclick="minimChatbox()"><span class="minim-button">&minus;</span></div>
+    <div id="maxi-chat" onclick="loadChatbox()"><span class="maxi-button">&plus;</span></div>
+  </div>
+  <script>
+    function loadChatbox() {
+      var e = document.getElementById("minim-chat");
+      e.style.display = "block";
+      var e = document.getElementById("maxi-chat");
+      e.style.display = "none";
+      var e = document.getElementById("chatbox");
+      e.style.margin = "0";
+    }
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+    function closeChatbox() {
+      var e = document.getElementById("chatbox");
+      e.style.margin = "0 0 -1500px 0";
+    }
 
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
+    function minimChatbox() {
+      var e = document.getElementById("minim-chat");
+      e.style.display = "none";
+      var e = document.getElementById("maxi-chat");
+      e.style.display = "block";
+      var e = document.getElementById("chatbox");
+      e.style.margin = "0 0 -460px 0";
+    }
+  </script>
 
-  </body>
+  <!-- Footer -->
+  <footer class="py-5 bg-dark">
+    <div class="container">
+      <p class="m-0 text-center text-white">MyCampus 2018</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap core JavaScript -->
+  <script src="vendor/jquery/jquery.min.js"></script>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Plugin JavaScript -->
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+
+</body>
 
 </html>
