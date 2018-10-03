@@ -33,10 +33,9 @@
 		   <li class="dropdown">
           <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Liens utiles</a>
           <ul class="dropdown-menu bg-dark" role="menu">
-            <li><a class="nav-link" href="#">Street Art</a></li>
-            <li><a class="nav-link" href="#">Political Comics</a></li>
-            <li><a class="nav-link" href="#">Paintings</a></li>
-			</ul>
+            <li><a class="nav-link" href="http://www.hep-education.com/campus/lyon/">Campus HEP Education</a></li>
+            <li><a class="nav-link" href="https://mylearningbox.reseau-cd.fr/">MyLearningBox</a></li>
+			    </ul>
 
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#accueil">Accueil</a>
@@ -111,6 +110,7 @@
         <div class="row">
           <div class="col-lg-8 mx-auto">
             <h2>Vidéo</h2>
+            <iframe width="840" height="473" src="https://www.youtube.com/embed/Cat8CTpNozQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
             <p class="lead">test</p>
           </div>
         </div>
@@ -127,12 +127,30 @@
       </div>
     </section>
 
+    <div id="chat" class="animated-chat tada" onclick="loadChatbox()">Une question ?</div>
+    <div class="chatbox" id="chatbox">
+      <span class="chat-text">Chat</span>
+      <script>
+        document.write('<div id="smartchatbox_img901621879" style="width: 280px; height: 450px; overflow: hidden; margin: auto; padding: 0;">');
+        document.write('<div id="smartchatbox901621879" style="width: 280px; height: 450px; overflow: hidden; margin: auto; padding: 0; border:0; ">');
+        document.write('<iframe src="https://www3.smartchatbox.com/shoutbox/sb.php?key=901621879" scrolling="no" frameborder="0" width="280px" height="450px" style="border:0; margin:0; padding: 0;">');
+        document.write('</iframe></div></div>');
+      </script>
+      <div id="close-chat" onclick="closeChatbox()">&times;</div>
+      <div id="minim-chat" onclick="minimChatbox()"><span class="minim-button">&minus;</span></div>
+      <div id="maxi-chat" onclick="loadChatbox()"><span class="maxi-button">&plus;</span></div>
+    </div>
+    <script>
+      function loadChatbox(){var e=document.getElementById("minim-chat");e.style.display="block";var e=document.getElementById("maxi-chat");e.style.display="none";var e=document.getElementById("chatbox");e.style.margin="0";}
+      function closeChatbox(){var e=document.getElementById("chatbox");e.style.margin="0 0 -1500px 0";}
+      function minimChatbox(){var e=document.getElementById("minim-chat");e.style.display="none";var e=document.getElementById("maxi-chat");e.style.display="block";var e=document.getElementById("chatbox");e.style.margin="0 0 -460px 0";}
+    </script>
+
     <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
         <p class="m-0 text-center text-white">MyCampus 2018</p>
       </div>
-      <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
