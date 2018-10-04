@@ -45,6 +45,9 @@ a:link {
 .tooltipSize {
   width: 100%;
 }
+.tooltip.show {
+  opacity: 1;
+}
 
 #chat {
   position: fixed;
