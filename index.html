@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html lang="en">
 
 <head>
@@ -9,10 +10,9 @@
   <meta name="author" content="">
 
   <title>MyCampus</title>
-
   <!-- Bootstrap core CSS -->
   <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <!-- Custom styles for this template -->
   <link href="css/scrolling-nav.css" rel="stylesheet">
   <link rel="stylesheet" href="css/style.css">
@@ -20,10 +20,6 @@
 
 
 </head>
-
-
-<body id="page-top">
-
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
     <div class="container">
@@ -32,15 +28,27 @@
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
-        <ul class="navbar-nav ml-auto">
-
+ 
+ 
+		 <ul class="navbar-nav ml-auto">
+          <li class="dropdown">
+            <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Résaux sociaux</a>
+            <ul class="dropdown-menu bg-dark" role="menu">
+              <li><a class="nav-link" target="_blank" href="https://www.facebook.com/HEPEDUCATION/"><i class="fa fa-facebook"></i> Facebook</a></li>
+              <li><a class="nav-link" target="_blank" href="https://twitter.com/HEP_EDUCATION"><i class="fa fa-twitter"></i> Twitter</a></li>
+			  <li><a class="nav-link" target="_blank" href="https://www.linkedin.com/company/hep-education/"><i class="fa fa-linkedin"></i> Linkedin</a></li>			 
+			  <li><a class="nav-link" target="_blank" href="https://www.instagram.com/hepeducation/"><i class="fa fa-instagram"></i> Instagram</a></li>			 
+            </ul>
+			</li>	
+			
           <li class="dropdown">
             <a class="dropdown-toggle nav-link" data-toggle="dropdown" href="#">Liens utiles</a>
             <ul class="dropdown-menu bg-dark" role="menu">
-              <li><a class="nav-link" href="http://www.hep-education.com/campus/lyon/">Campus HEP Education</a></li>
-              <li><a class="nav-link" href="https://mylearningbox.reseau-cd.fr/">MyLearningBox</a></li>
+              <li><a class="nav-link" target="_blank" href="http://www.hep-education.com/campus/lyon/" style="width: 182px;">Campus HEP Education</a></li>
+              <li><a class="nav-link" target="_blank" href="https://mylearningbox.reseau-cd.fr/">MyLearningBox</a></li>
+			  <li><a class="nav-link" target="_blank" href="http://ecampuslyon.epsi.fr/">Ecampus</a></li>			 
             </ul>
-
+			</li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger" href="#accueil">Accueil</a>
           </li>
@@ -118,12 +126,13 @@
 	-->
 
   <section id="plan" class="bg-light">
-    <div class="container">
+    <div class="container ">
       <div class="row">
-        <div>
+      <div class="my-auto mx-auto">
+        
           <img src="http://lorempixel.com/output/food-q-c-350-350-5.jpg" usemap="#foodmap">
           <map id="#foodmap" name="foodmap">
-            <area class="area" shape="rect" coords="0,0,170,100" href="#" title="<img src='https://upload.wikimedia.org/wikipedia/commons/c/c9/Madrid_Graffitti.jpg' />" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="area-tooltip1" />
+            <area class="area" shape="rect" coords="0,0,170,100" href="#" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="area-tooltip1" />
 
             <area class="area" shape="rect" coords="187,0,342,188" href="#" target="_self" style="outline:none;" TooltipBackround="black" TooltipId="area-tooltip2" />
 
@@ -139,7 +148,7 @@
 
           <script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
           <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-        </div>
+        
       </div>
     </div>
   </section>
@@ -147,26 +156,27 @@
   <script src="js/index.js"></script>
 
   <section id="video">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 mx-auto">
+    <div class="container col-lg-8">
+      
+        <div class="text-center">
           <h2>Vidéo</h2>
-          <iframe width="840" height="473" src="https://www.youtube.com/embed/Cat8CTpNozQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          <iframe width="92%" height="600" src="https://www.youtube.com/embed/Cat8CTpNozQ?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
           <p class="lead">test</p>
         </div>
-      </div>
+     
     </div>
   </section>
 
   <section id="contact" class="bg-light">
-    <div class="container col-lg-8">
+    <div class="container col-lg-8 text-center">
       <h2>Contact</h2>
-      <iframe class="my-auto mx-auto" src="https://www.google.com/maps/d/embed?mid=1y0aVO-NSJ_VY3IvmaQr8-q4kiOfezZTw&z=13" width="910" height="780"></iframe>
-      <p></p>
-      <p class="lead"><strong>Telephone :</strong> 04 72 85 17 93</p>
-      <p class="lead"><strong>Mail :</strong> charlotte.lucchini@hep-education.com</p>
+      <iframe class="my-auto mx-auto" src="https://www.google.com/maps/d/embed?mid=1y0aVO-NSJ_VY3IvmaQr8-q4kiOfezZTw&z=13&&ll=45.760310,4.851770" width="92%" height="780"></iframe>
+      <br>
+      <p class="lead"><strong>Telephone : </strong><a href="tel:+33472851793">04 72 85 17 93</a></p>
+      <p class="lead"><strong>Mail : </strong><a href ="mailto:charlotte.lucchini@hep-education.com" >charlotte.lucchini@hep-education.com</a></p>
     </div>
   </section>
+  
 
   <div id="chat" class="animated-chat tada" onclick="loadChatbox()">Une question ?</div>
   <div class="chatbox" id="chatbox">
@@ -174,7 +184,7 @@
     <script>
       document.write('<div id="smartchatbox_img901621879" style="width: 280px; height: 450px; overflow: hidden; margin: auto; padding: 0;">');
       document.write('<div id="smartchatbox901621879" style="width: 280px; height: 450px; overflow: hidden; margin: auto; padding: 0; border:0; ">');
-      document.write('<iframe src="https://www3.smartchatbox.com/shoutbox/sb.php?key=901621879" scrolling="no" frameborder="0" width="280px" height="450px" style="border:0; margin:0; padding: 0;">');
+      document.write('<iframe src="https://cdn4.iconfinder.com/data/icons/VistaICO_Toolbar-Icons/256/Under-construction.png" "//https://www3.smartchatbox.com/shoutbox/sb.php?key=901621879" scrolling="no" frameborder="0" width="280px" height="450px" style="border:0; margin:0; padding: 0;">');
       document.write('</iframe></div></div>');
     </script>
     <div id="close-chat" onclick="closeChatbox()">&times;</div>
