@@ -58,11 +58,12 @@ a:link {
   cursor: pointer;
   font-family: Arial, sans-serif;
   text-align: center;
-  height: 25px;
-  line-height: 20px;
+  height: 40px;
+  width: 200px;
+  line-height: 30px;
   border-radius: 3px;
   padding: 2px 8px;
-  font-size: 12px;
+  font-size: 25px;
   background: #fff;
   -webkit-transform: translateZ(0);
   transform: translateZ(0);
